@@ -1,0 +1,1 @@
+This is a sample implementation of the bigpipe pattern with node.js.
