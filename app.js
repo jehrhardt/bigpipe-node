@@ -40,7 +40,7 @@ var renderBody = function(response) {
 };
 
 var renderHeader = function(response) {
-  var header = '<!DOCTYPE html>\n<html>\n<head>\n<title>Things</title>';
+  var header = '<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv="Content-type" content="text/html; charset=utf-8">\n<title>Things</title>';
   header += '\n<style>.user {border:1px solid #0000ff;width: 500px;height: 50px;float: left;}</style>';
   header += '\n<script type="text/javascript">var renderUser = function(user) {\ndocument.getElementById(user.name).innerText = JSON.stringify(user)\n};\n</script>';
   header += '\n</head>';
